@@ -1,0 +1,100 @@
+
+/* Apply basic style to all elements */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color and page margin */
+body {
+    background-color: #fff0f6;
+    margin: 20px;
+}
+
+/* Style the heading */
+h2 {
+    color: #7b2cbf;
+    margin-bottom: 20px;
+}
+
+/* Style  text, email, password and date inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 250px;
+    padding: 8px;
+    border: 2px solid #d63384;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/*  font size */
+table,
+input,
+label {
+    font-size: 16px;
+}
+
+/* Style  labels */
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #4a1942;
+}
+
+/* Style  Register button */
+input[type="submit"] {
+    border: none;
+    color: white;
+    padding: 9px 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #d63384;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Change button color when mouse is over it */
+input[type="submit"]:hover {
+    background-color: #7b2cbf;
+}
+
+/* Change input border when clicked */
+input:focus {
+    border: 2px solid #7b2cbf;
+    outline: none;
+}
+
+/* Remove space between table borders */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table heading */
+th {
+    background-color: #7b2cbf;
+    color: white;
+}
+
+/* Change row color when mouse is over it */
+tr:hover {
+    background-color: #fce4ec;
+}
+
+/* border and space inside table cells */
+td,
+th {
+    border: 1px solid #d63384;
+    padding: 10px;
+}
+
+/* Style the table data cells */
+td {
+    background-color: #ffffff;
+    color: #4a1942;
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>studentRegistrationForm</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <!-- Registration Form-->
+    <form action="">
+        <!-- Full Name field -->
+        <label for="" required> Full Name: </label>
+        <!-- break tag-->
+        <br />
+        <input type="text" placeholder="Enter your name" required />
+        <br />
+        <br />
+        <!-- email field -->
+        <label for=""> Email: </label>
+        <br />
+        <input type="email" placeholder="Enter your email" required />
+        <br />
+        <br />
+        <!-- Password field -->
+        <label for="">Password:</label>
+        <br />
+        <input type="password" required />
+        <br />
+        <br />
+        <!-- Gender field -->
+        <label for="male">Gender:
+            <br />
+            <input type="radio" id="male" name="gender" required />Male</label>
+        <label for="female"><input type="radio" id="female" name="gender" />Female</label>
+        <br />
+        <br />
+        <!-- Skills field -->
+        <label for="html">Skills:
+            <br />
+            <input type="checkbox" id="html" name="skills" />Html</label>
+
+        <label for="css">
+            <input type="checkbox" id="css" name="skills" />css</label>
+        <label for="Javascript">
+            <input type="checkbox" id="Javascript" name="skills" />Javascript</label>
+        <br />
+        <br />
+        <!-- Dateof birth field -->
+        <label for="">Date of Birth:</label>
+        <br />
+
+        <input type="date" required />
+        <br />
+        <br />
+        <!-- registerfield -->
+        <input type="submit" value="Register" required />
+    </form>
+    <hr />
+    <!-- Horizontal tag -->
+    <!-- data -->
+    <h1>Submitted students (Dummy data)</h1>
+    <!-- Tablefield -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>skills</th>
+            <th>DOB</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>alice@example.com</td>
+            <td>Female</td>
+            <td>Html,Css</td>
+            <td>2002-05-10</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>bob@example.com</td>
+            <td>Male</td>
+            <td>Javascript</td>
+            <td>2001-11-22</td>
+        </tr>
+    </table>
+</body>
+
+</html>
